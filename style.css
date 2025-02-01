@@ -5,8 +5,7 @@ body {
   background-image: url(dark.gif);
   background-size: cover;
   background-repeat: no-repeat;
-  image-rendering: -webkit-optimize-contrast; 
-  image-rendering: crisp-edges
+
 }
 
 
