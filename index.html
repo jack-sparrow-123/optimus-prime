@@ -6,16 +6,18 @@
 </head>
 <body>
     <div class="black-hole"></div>
-    <audio controls autoplay loop>
-      <source src="stormatseamp3-14744.mp3" type="audio/mpeg" id="myAudio">
-        your browser does not support audio element
-    </audio>
-  </div>
-     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var audioElement = document.getElementById('myAudio');
-            audioElement.play();
-        });
-    </script>
+    <div class="black-hole"></div>
+<audio autoplay loop>
+  <source src="stormatseamp3-14744.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var audioElement = document.querySelector('audio');
+    audioElement.play();
+  });
+</script>
+
 </body>
 </html>
