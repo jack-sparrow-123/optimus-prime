@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="black-hole"></div>
+
+<div class="black-hole"></div>
 <audio id="myAudio" loop>
   <source src="stormatseamp3-14744.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
@@ -20,6 +21,7 @@
 
     playButton.addEventListener('click', function() {
       audioElement.play();
+      playButton.style.display = 'none'; 
     });
   });
 </script>
